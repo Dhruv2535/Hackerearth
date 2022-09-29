@@ -28,26 +28,26 @@ void solve() {
     create(n)
     int arr[n][2];
     
-    int q1=0, q2=0;
+    int a=0, b=0;
     start_loop {
         cin>>arr[i][0]>>arr[i][1];
         if(arr[i][0]==1)
-            q1++;
+            a++;
         if(arr[i][1]==1)
-            q2++;
+            b++;
     }
 
     int cost=0;
     if(p<g) {
-        if(q1<q2)
-            cost = (q1*g) + (q2*p);
+        if(a<b)
+            cost = (a*g) + (b*p);
         else
-            cost = (q1*p) + (q2*g);
+            cost = (a*p) + (b*g);
     } else {
-        if(q1<q2)
-            cost = (q1*p) + (q2*g);
+        if(a<b)
+            cost = (a*p) + (b*g);
         else
-            cost = (q1*g) + (q2*p);
+            cost = (a*g) + (b*p);
     }
 
     display(cost)
