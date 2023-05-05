@@ -1,7 +1,5 @@
 # Hackerearth Solutions <i><h6>@geekblower</h6></i>
 
-
-
 <h3>📬 Contact</h3>
 
 ##### If you want to contact me, you can reach me through below Social handles.
